@@ -9,12 +9,10 @@ def find_even_values(src)
     inner_counter = 0
     while inner_counter < src[counter].length do
       if src[counter][inner_counter] % 2 == 0
-        new_array.push(src[counter][inner_counter])
+        p src[counter][inner_counter])
       end
       inner_counter += 1
     end
     counter += 1
   end
-
-  return new_array
 end
