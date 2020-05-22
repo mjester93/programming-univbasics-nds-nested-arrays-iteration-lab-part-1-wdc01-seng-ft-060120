@@ -15,4 +15,6 @@ def find_even_values(src)
     end
     counter += 1
   end
+
+  return new_array
 end
